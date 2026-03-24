@@ -3,9 +3,10 @@ import AvailablePlayers from "./availablePlayers/AvailablePlayers";
 import SelectedPlayers from "./selectedPlayers/SelectedPlayers";
 
 const Players = ({playersPromise, coin, setCoin}) => {
-    const [btnState, setBtnState] = useState("available")
+    const [btnState, setBtnState] = useState("available");
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
 
-    const players = use(playersPromise)
+    const players = use(playersPromise);
     // console.log(data);
     return ( 
         <div>
@@ -23,7 +24,14 @@ const Players = ({playersPromise, coin, setCoin}) => {
                 </div>
             </div>
 
-            {btnState === 'available' ? <AvailablePlayers players={players} coin={coin} setCoin={setCoin}></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>}
+            {btnState === 'available' ? <AvailablePlayers 
+            players={players} 
+            coin={coin} 
+            setCoin={setCoin}
+            selectedPlayers={selectedPlayers}
+            setSelectedPlayers={setSelectedPlayers}
+            ></AvailablePlayers> : 
+            <SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers>}
         </div>
      );
 }

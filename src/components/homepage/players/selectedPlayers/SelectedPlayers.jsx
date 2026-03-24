@@ -1,6 +1,7 @@
-const SelectedPlayers = () => {
+const SelectedPlayers = ({selectedPlayers}) => {
     return ( 
-        <div>Seletced Players is gonna show up here</div>
+        // <div>Seletced Players is gonna show up here</div>
+        console.log(selectedPlayers, 'selected players')
      );
 }
  
