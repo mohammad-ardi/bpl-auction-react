@@ -1,7 +1,7 @@
 import Card from "../../../ui/Card";
 
 
-const AvailablePlayers = ({players}) => {
+const AvailablePlayers = ({players,coin, setCoin}) => {
     return ( 
         <div>
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -10,6 +10,8 @@ const AvailablePlayers = ({players}) => {
                         return <Card
                         key={player.playerNo} 
                         player={player}
+                        coin={coin}
+                        setCoin={setCoin}
                         ></Card>
                     })
                 }

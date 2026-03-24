@@ -1,7 +1,7 @@
 import coinImg from '../../../assets/dollar-1.png'
 import navLogo from '../../../assets/logo.png'
 
-const Navbar = () => {
+const Navbar = ({coin}) => {
     return (
         <div className="navbar bg-base-100 flex flex-col sm:flex-row container mx-auto">
             <div className="flex-1">
@@ -13,7 +13,7 @@ const Navbar = () => {
                 <a href="/teams">Teams</a>
                 <a href="/schedules">Schedules</a>
                 <button className="btn btn-ghostflex justify-center items-center gap-2">
-                    <span className='font-bold text-xl'>0 Coin</span>
+                    <span className='font-bold text-xl'>{coin} Coin</span>
                     <img src={coinImg} alt="coin currency logo" />
                 </button>
             </div>
