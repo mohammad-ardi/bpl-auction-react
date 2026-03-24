@@ -33,7 +33,10 @@ const Players = ({playersPromise, coin, setCoin}) => {
             ></AvailablePlayers> : 
             <SelectedPlayers 
             selectedPlayers={selectedPlayers}
-            setSelectedPlayers={setSelectedPlayers}></SelectedPlayers>}
+            setSelectedPlayers={setSelectedPlayers}
+            coin={coin}
+            setCoin={setCoin}
+            ></SelectedPlayers>}
         </div>
      );
 }

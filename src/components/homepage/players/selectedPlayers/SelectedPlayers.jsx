@@ -1,10 +1,11 @@
 import SelectedCard from "../../../ui/SelectedCard";
 
-const SelectedPlayers = ({selectedPlayers, setSelectedPlayers}) => {
+const SelectedPlayers = ({selectedPlayers, setSelectedPlayers, coin, setCoin}) => {
     const handleDeleteSelectedPlayer=(player)=>{
         const filteredPlayers = selectedPlayers.filter(selectedPlayer=> selectedPlayer.playerName !== player.playerName)
 
         setSelectedPlayers(filteredPlayers);
+        setCoin(coin + player.price);
     }
     return ( 
         // <div>Seletced Players is gonna show up here</div>
