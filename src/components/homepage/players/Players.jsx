@@ -12,7 +12,7 @@ const Players = ({playersPromise, coin, setCoin}) => {
         <div>
             <div className="container mx-auto my-8 flex justify-between items-center">
 
-                {btnState === 'available' ? <p className="font-bold text-2xl">Available</p> : <p className="font-bold text-2xl">Selected Players</p>}
+                {btnState === 'available' ? <p className="font-bold text-2xl">Available</p> : <p className="font-bold text-2xl">Selected Players ({selectedPlayers.length}/{players.length})</p>}
 
                 <div>
                     <button
@@ -20,7 +20,7 @@ const Players = ({playersPromise, coin, setCoin}) => {
                      className={`btn ${btnState === 'available' && 'bg-[#E7FE29]'} rounded-r-none rounded-l-xl`}>Available</button>
                     <button 
                     onClick={()=>{setBtnState("selected")}}
-                    className={`btn ${btnState === 'selected' && 'bg-[#E7FE29]'} rounded-l-none rounded-r-xl`}>Selected</button>
+                    className={`btn ${btnState === 'selected' && 'bg-[#E7FE29]'} rounded-l-none rounded-r-xl`}>Selected ({selectedPlayers.length})</button>
                 </div>
             </div>
 
@@ -31,7 +31,9 @@ const Players = ({playersPromise, coin, setCoin}) => {
             selectedPlayers={selectedPlayers}
             setSelectedPlayers={setSelectedPlayers}
             ></AvailablePlayers> : 
-            <SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers>}
+            <SelectedPlayers 
+            selectedPlayers={selectedPlayers}
+            setSelectedPlayers={setSelectedPlayers}></SelectedPlayers>}
         </div>
      );
 }

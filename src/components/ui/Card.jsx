@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaUserAlt, FaFlag } from "react-icons/fa";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 
 const Card = ({player,coin, setCoin, selectedPlayers, setSelectedPlayers}) => {
     const [isSelected, setIsSelected] = useState(false);
@@ -61,7 +61,6 @@ const Card = ({player,coin, setCoin, selectedPlayers, setSelectedPlayers}) => {
                 <div className="card-actions justify-end">
                     <p className="font-bold text-[16px]">Price: ${player.price}</p>
                     <button onClick={handleChosePlayerBtn} className="btn" disabled={isSelected}>{isSelected ? 'Selected' : 'Choose Player'}</button>
-                    <ToastContainer></ToastContainer>
                 </div>
             </div>
         </div>
