@@ -1,0 +1,82 @@
+[
+  {
+    "playerName": "Steve Smith",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 9.5,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": 1050000,
+    "playerImg": "https://i.ibb.co/Z1FkRYPJ/l42320260106102144.webp"
+  },
+  {
+    "playerName": "Kagiso Rabada",
+    "playerCountry": "South Africa",
+    "playerType": "Bowler",
+    "rating": 9.3,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 950000,
+    "playerImg": "https://i.ibb.co/99DbJSvq/kagiso-rabada.avif"
+  },
+  {
+    "playerName": "David Warner",
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 9.2,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": 980000,
+    "playerImg": "https://i.ibb.co/S4LT1Jdx/Whats-App-Image-2024-07-24-at-14-38-38.webp"
+  },
+  {
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerType": "Batsman",
+    "rating": 9.6,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1000000,
+    "playerImg": "https://i.ibb.co/j9H5TjTJ/babar.png"
+  },
+  {
+    "playerName": "Trent Boult",
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 9.1,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 930000,
+    "playerImg": "https://i.ibb.co/4gMkJgQv/images.jpg"
+  },
+  {
+    "playerName": "Mushfiqur Rahim",
+    "playerCountry": "Bangladesh",
+    "playerType": "Batsman",
+    "rating": 8.9,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 870000,
+    "playerImg": "https://i.ibb.co/yFQ46RsK/image-334059-1763646615.webp"
+  },
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerType": "All Rounder",
+    "rating": 9.7,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 950000,
+    "playerImg": "https://i.ibb.co/xthRNhqw/7992d7c9ecf9aaf1e8c353c34b92c41e.jpg"
+  },
+  {
+    "playerName": "Shaheen Afridi",
+    "playerCountry": "Pakistan",
+    "playerType": "Bowler",
+    "rating": 9.2,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "price": 940000,
+    "playerImg": "https://i.ibb.co/Xdw797T/pak-selectors-include-shaheen-afridi-for-series-against-australia-2026-01-24.jpg"
+  }
+]
