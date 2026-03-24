@@ -13,7 +13,12 @@ const SelectedPlayers = ({selectedPlayers, setSelectedPlayers, coin, setCoin}) =
         <div>
             <div>
                 <div className="space-y-5">
-                    {
+                    { selectedPlayers.length === 0 ? 
+                     <div className="flex flex-col items-center justify-center h-40">
+                        <p className="font-semibold text-xl">No Player Selected</p>
+                        <p>Select from Available Section</p>
+                     </div>
+                    :
                         selectedPlayers.map(player=>{
                             return <SelectedCard
                             key={player.playerNo}
