@@ -1,7 +1,7 @@
 import './App.css'
 import Banner from './components/homepage/banner/Banner'
 import Navbar from './components/homepage/navbar/Navbar'
-import Players from '../Players'
+import Players from './components/homepage/players/Players'
 import { Suspense } from 'react';
 
 // const fetchPlayers=async ()=>{

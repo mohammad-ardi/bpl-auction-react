@@ -3,7 +3,7 @@ import navLogo from '../../../assets/logo.png'
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm flex flex-col sm:flex-row">
+        <div className="navbar bg-base-100 flex flex-col sm:flex-row container mx-auto">
             <div className="flex-1">
                 <img src={navLogo} alt="" />
             </div>
