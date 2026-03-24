@@ -6,7 +6,7 @@
     "rating": 9.5,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 1050000,
+    "price": 1050,
     "playerImg": "https://i.ibb.co/Z1FkRYPJ/l42320260106102144.webp"
   },
   {
@@ -16,7 +16,7 @@
     "rating": 9.3,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": 950000,
+    "price": 950,
     "playerImg": "https://i.ibb.co/99DbJSvq/kagiso-rabada.avif"
   },
   {
@@ -26,7 +26,7 @@
     "rating": 9.2,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm legbreak",
-    "price": 980000,
+    "price": 980,
     "playerImg": "https://i.ibb.co/S4LT1Jdx/Whats-App-Image-2024-07-24-at-14-38-38.webp"
   },
   {
@@ -36,7 +36,7 @@
     "rating": 9.6,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
-    "price": 1000000,
+    "price": 1000,
     "playerImg": "https://i.ibb.co/j9H5TjTJ/babar.png"
   },
   {
@@ -46,7 +46,7 @@
     "rating": 9.1,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": 930000,
+    "price": 930,
     "playerImg": "https://i.ibb.co/4gMkJgQv/images.jpg"
   },
   {
@@ -56,7 +56,7 @@
     "rating": 8.9,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "None",
-    "price": 870000,
+    "price": 870,
     "playerImg": "https://i.ibb.co/yFQ46RsK/image-334059-1763646615.webp"
   },
   {
@@ -66,7 +66,7 @@
     "rating": 9.7,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Slow left-arm orthodox",
-    "price": 950000,
+    "price": 950,
     "playerImg": "https://i.ibb.co/xthRNhqw/7992d7c9ecf9aaf1e8c353c34b92c41e.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "rating": 9.2,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm fast",
-    "price": 940000,
+    "price": 940,
     "playerImg": "https://i.ibb.co/Xdw797T/pak-selectors-include-shaheen-afridi-for-series-against-australia-2026-01-24.jpg"
   }
 ]

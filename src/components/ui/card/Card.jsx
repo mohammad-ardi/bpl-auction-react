@@ -2,7 +2,7 @@ import { FaUserAlt, FaFlag } from "react-icons/fa";
 
 const Card = ({player}) => {
     return ( 
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100 shadow-sm border">
             <figure>
                 <img
                 src={player.playerImg}
@@ -26,8 +26,8 @@ const Card = ({player}) => {
                 <div className="divider"></div>
                 <p className="font-bold text-[16px]">Rating: </p>
                 <div className="flex justify-between items-center">
-                    <p>{player.battingStyle}</p>
-                    <p className="text-right">{player.bowlingStyle}</p>
+                    <p className="font-semibold">{player.battingStyle}</p>
+                    <p className="text-right font-semibold">{player.bowlingStyle}</p>
                 </div>
                 <div className="card-actions justify-end">
                     <p className="font-bold text-[16px]">Price: ${player.price}</p>
