@@ -1,18 +1,12 @@
 import { use } from "react";
-import Card from "../../ui/card/Card";
+import AvailablePlayers from "./availablePlayers/AvailablePlayers";
 
 const Players = ({playersPromise}) => {
     const players = use(playersPromise)
     // console.log(data);
     return ( 
         <div>
-            <div className="container mx-auto mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                {
-                    players.map(player=>{
-                        return <Card player={player}></Card>
-                    })
-                }
-            </div>
+            <AvailablePlayers players={players}></AvailablePlayers>
         </div>
      );
 }
